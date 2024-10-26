@@ -3,7 +3,7 @@ import './App.css';
 import { Outlet, useParams } from 'react-router-dom';
 import Navbar from './components/Navbar'
 import { useContext, useEffect } from 'react';
-import { ProductContext } from './context/ProductContect';
+import { ProductContext } from './context/ProductContext';
 
 function App() {
   const {filterProducts} = useContext(ProductContext);
