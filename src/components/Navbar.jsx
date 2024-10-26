@@ -17,7 +17,7 @@ export default function Navbar() {
     <div className='w-full h-20 border shadow-lg flex items-center justify-between px-8 bg-white'>
 
       <NavLink className='flex flex-col items-center' to={'/'}>
-        <span>Moostage</span>
+        <span>무티지(홍진무's 빈티지샵)</span>
       </NavLink>
 
       <ul className='flex items-center gap-10'>
